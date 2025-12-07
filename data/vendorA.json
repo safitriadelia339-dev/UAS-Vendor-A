@@ -1,0 +1,32 @@
+[
+  {
+    "kd_produk": "A001",
+    "nm_brg": "Kopi Bubuk 100g",
+    "hrg": 15000,
+    "ket_stok": "Ada"
+  },
+  {
+    "kd_produk": "A002",
+    "nm_brg": "Minyak Goreng 1 Liter",
+    "hrg": 15000,
+    "ket_stok": "Ada"
+  },
+  {
+    "kd_produk": "A003",
+    "nm_brg": "Gula Pasir 1kg",
+    "hrg": 13500,
+    "ket_stok": "Habis"
+  },
+  {
+    "kd_produk": "A004",
+    "nm_brg": "Telur Ayam 1 Kg",
+    "hrg": 28000,
+    "ket_stok": "Ada"
+  },
+  {
+    "kd_produk": "A005",
+    "nm_brg": "Tepung Terigu 1kg",
+    "hrg": 11000,
+    "ket_stok": "Habis"
+  }
+]
