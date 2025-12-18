@@ -1,6 +1,12 @@
-const db = require('./db');
+const db = require("./db");
 
-db.all("SELECT name FROM sqlite_master WHERE type='table'", [], (err, rows) => {
-    if (err) return console.log("DB ERROR:", err);
-    console.log("Tables:", rows);
-});
+async function checkConnection() {
+  try {
+    const result = await db.query("SELECT NOW()");
+    console.log("Database connected at:", result.rows[0].now);
+  } catch (err) {
+    console.error("DB connection error:", err.message);
+  }
+}
+
+checkConnection();
